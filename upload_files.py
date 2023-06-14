@@ -1,3 +1,4 @@
+from dotenv import load_dotenv
 from pydrive.auth import GoogleAuth
 from pydrive.drive import GoogleDrive
 from tqdm import tqdm  # Importa a biblioteca tqdm
@@ -7,7 +8,7 @@ import os
 pasta_local = 'mundos'
 
 # ID da pasta de destino no Google Drive
-id_pasta_destino = 'LOCAL_FOLDER'
+id_pasta_destino = 'FOLDER_ID'
 
 # Autenticação e criação do objeto drive
 gauth = GoogleAuth()
