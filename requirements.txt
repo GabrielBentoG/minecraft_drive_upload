@@ -1,3 +1,5 @@
 pydrive
 tqdm
 gdown
+os
+subprocess
