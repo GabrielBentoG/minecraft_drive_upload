@@ -3,10 +3,10 @@ from pydrive.drive import GoogleDrive
 import os
 
 # Caminho para a pasta local
-pasta_local = 'mundos'
+pasta_local = 'LOCAL_FOLDER'
 
 # ID da pasta de destino no Google Drive
-id_pasta_destino = '1SeyuIZKbNnEe1jx4ItB9SGPqHsklNqj9'
+id_pasta_destino = 'FOLDER_ID'
 
 # Autenticação e criação do objeto drive
 gauth = GoogleAuth()
